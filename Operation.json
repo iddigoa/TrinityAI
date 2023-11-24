@@ -1,0 +1,143 @@
+{
+    "data" : [
+        {
+            "deviceName" : "Trinity_AI_Network#1",
+            "type" : "Network",
+            "deviceType" : "Switch",
+            "model" : "N9K-C93180YC-FX3",
+            "vendor" : "CISCO",
+            "osType" : "NXOS",
+            "osVersion" : "10.3(3)N1(1)",
+            "ipAddress" : "1.2.3.4",
+            "macAddress" : "001d.d89c.f16d",
+            "Operation" : {
+                "date" : "2023-11-29 07:00:00",
+                "os" : "9.3(11)",
+                "kernel": "",
+                "systemd" : "",
+                "show ip arp" : [
+                    {
+                        "IP" : "1.2.10.12",
+                        "MAC" : "001d.cv4c.fddd",
+                        "Interface" : "Ethernet1/16"
+                    },
+                    {
+                        "IP" : "1.2.4.12",
+                        "MAC" : "001d.cddc.f56d",
+                        "Interface" : "Ethernet1/18"
+                    }
+                ],
+                "show interface status" : [
+                    {
+                        "Interface" : "Ethernet1/16",
+                        "Status" : "UP",
+                        "Speed" : "1G"
+                    },
+                    {
+                        "Interface" : "Ethernet1/18",
+                        "Status" : "UP",
+                        "Speed" : "1G"
+                    }
+                ],
+                "show environment"  : "",
+                "show log" : "",
+                "show run" : ""
+            }
+
+        },        
+        {
+            "deviceName" : "Trinity_AI_Network#2",
+            "type" : "Network",
+            "deviceType" : "Router",
+            "model" : "N9K-C3300YC-FX3",
+            "vendor" : "CISCO",
+            "osType" : "NXOS",
+            "osVersion" : "10.1(3)N1(1)",
+            "ipAddress" : "1.2.3.5",
+            "macAddress" : "001d.cd9c.fd6d",
+            "Operation" : {
+                "date" : "2023-11-29 07:00:00",
+                "os" : "9.3(11)",
+                "kernel": "",
+                "systemd" : "",
+                "show ip arp" : "Total number of entries : 10 \\n
+                     Address      Age  MAC Address    Interface \\n
+                     ",     
+                "show environment"  : "",
+                "show log" : "",
+                "show interface status" : "",
+                "show run" : ""
+            }
+            
+        },
+        {
+            "deviceName": "Trinity_AI_Network#3",
+            "type": "Network",
+            "deviceType": "Router",
+            "model": "N9K-C93180YC-FX3",
+            "vendor": "CISCO",
+            "osType": "NXOS",
+            "osVersion": "10.0(3)N1(1)",
+            "ipAddress": "1.2.4.12",
+            "macAddress": "001d.cddc.f56d",
+            "Operation" : {
+                "date" : "2023-11-29 07:00:00",
+                "os" : "9.3(11)",
+                "kernel": "",
+                "systemd" : "",
+                "show ip arp" : "Total number of entries : 10 \\n
+                     Address      Age  MAC Address    Interface \\n
+                     ",          
+                "show environment"  : "",
+                "show log" : "",
+                "show interface status" : "",
+                "show run" : ""
+            }
+        },
+        {
+            "deviceName": "Trinity_AI_Server#1",
+            "type": "Server",
+            "deviceType": "Linux",
+            "model": "ProLiant DL380",
+            "osType": "Ubuntu",
+            "osVersion": "23.04",
+            "vendor": "HPE",
+            "ipAddress": "1.2.10.12",
+            "macAddress": "001d.cv4c.fddd",
+            "Operation" : {
+                "date" : "2023-11-29 07:00:00",
+                "os" : "9.3(11)",
+                "kernel": "",
+                "systemd" : "systemd-219-78.el7_98",
+                "show ip arp" : " ",
+                "show verson" : " ",            
+                "show environment"  : "",
+                "show log" : "",
+                "show interface status" : "",
+                "show run" : ""
+            }
+        },
+        {
+            "deviceName": "Trinity_AI_Server#2",
+            "type": "Server",
+            "deviceType": "Linux",
+            "model": "ProLiant DL380",
+            "osType": "Ubuntu",
+            "osVersion": "23.01",
+            "vendor": "HPE",
+            "ipAddress": "1.2.10.57",
+            "macAddress": "001d.cv4c.f1dd",
+            "Operation" : {
+                "date" : "2023-11-29 07:00:00",
+                "os" : "9.3(11)",
+                "kernel": "",
+                "systemd" : "systemd-219-78.el7_98",
+                "show ip arp" : "",
+                "show environment"  : "",
+                "show log" : "",
+                "show interface status" : "",
+                "show run" : ""
+            }
+        }
+    ]
+}
